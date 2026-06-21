@@ -1,28 +1,31 @@
-# calculator-app
-A modular command-line calculator built in Python with history tracking, timestamps, file saving (TXT/CSV), and a save manager for flexible file export.
-
-
 # 🧮 Python Calculator App
 
-A terminal-based calculator built in Python featuring:
-- History tracking with timestamps
-- File export (TXT & CSV)
-- Save manager with folder selection
-- Input validation & retry system
-- Limited attempts mode
-
----
+A clean, modular command-line calculator built in Python.
 
 ## 🚀 Features
-
-- Basic arithmetic operations (add, subtract, multiply, divide)
-- View calculation history
+- Basic math operations
+- History tracking with timestamps
 - Save history to TXT or CSV
-- Choose save location (Desktop / custom folder / current directory)
-- Automatic folder creation
-- Retry-safe number input system
+- Save manager (Desktop / custom folder / current folder)
+- Input validation + retry system
 - Back-to-menu navigation
+- Limited attempts system
 
 ---
 
-## 📂 Project Structure
+## 📂 Structure
+calculator-app/
+├── calculator/
+│   ├── main.py
+│   ├── operations.py
+│   ├── history.py
+│   └── file_manager.py
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+---
+
+## ▶️ How to run
+```bash
+python calculator/main.py
